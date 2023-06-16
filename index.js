@@ -27,6 +27,10 @@ app.post('/signup', async (req, res) => {
     res.json(userResponse);
 })
 
+app.get("/", (req, res) => {
+    console.log("Response success")
+    res.send("Response Success!")
+});
 
 
 // set listen and post for requests
