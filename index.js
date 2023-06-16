@@ -27,7 +27,7 @@ app.post('/signup', async (req, res) => {
     res.json(userResponse);
 })
 
-app.get("/", (req, res) => {
+app.get("/signup", (req, res) => {
     console.log("Response success")
     res.send("Response Success!")
 });
